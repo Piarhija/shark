@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dac8qbdiayw0g"]
+
+[ext_resource type="ArrayMesh" uid="uid://oumvi8rvhl40" path="res://blahaj.obj" id="1_g0rde"]
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.974425, 0.167583, 0.149705, -0.0993637, 0.918869, -0.381846, -0.20155, 0.357205, 0.912021, -0.333979, -1.68155e-07, 1.40579)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.365283, 2.27203e-08, 0.930897, 0.526556, 0.82465, -0.20662, -0.767664, 0.565644, 0.301231, -0.333979, -1.68155e-07, 1.40579)
+
+[node name="Blahaj" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.365283, 1.28588e-17, 0.930897, 0.526556, 0.82465, -0.20662, -0.767664, 0.565644, 0.301231, -0.333979, -1.19209e-07, -1.59664)
+mesh = ExtResource("1_g0rde")
